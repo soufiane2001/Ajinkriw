@@ -67,21 +67,7 @@ let [fontsLoaded] = useFonts({
     const [pkid, setpkid] = React.useState(0);
     const [number, onChangeNumber] = React.useState(null);
         const [show, setshow] = React.useState(true);
-  const [my, setmy] = React.useState([/*{m:"heey",fr:"me"},{m:"cv",fr:"he"},{m:"hamdlh",fr:"me"},{m:"kin chi kre",fr:"he"}
-  ,{m:"kin chi kre",fr:"he"},{m:"kin chi kre",fr:"he"},{m:"kin chi kre",fr:"he"},{m:"kin chi kre",fr:"he"},{m:"kin chi kre",fr:"he"}
-  ,{m:"lyn3l tbn mok jawb",fr:"he"},{m:"dor t9wd azabi nta baghi tjib l9hab ldar",fr:"me"},
-  ,{m:"nta malk njib hta khtk",fr:"he"},{m:"mkarich li bhalk awl 9hba tamlk sir chouf chi 9wad idbrlik fbrtouch hahahah ddfdsf",fr:"me"}
-  ,{m:"bhala m3rft ach ghadi tkri lina",fr:"he"} ,{m:"bhala m3rft ach ghadi tkri lina",fr:"he"}
-   ,{m:"bhala m3rft ach ghadi tkri lina",fr:"he"} ,{m:"bhala m3rft ach ghadi tkri lina",fr:"he"}
-  ,{m:"bhala m3rft ach ghadi tkri lina",fr:"he"} ,{m:"bhala m3rft ach ghadi tkri lina",fr:"he"}
-  
-  ,{m:"mkarich li bhalk awl 9hba tamlk sir chouf chi 9wad idbrlik fbrtouch hahahah ddfdsf",fr:"me"}
-  ,{m:"bhala m3rft ach ghadi tkri lina",fr:"he"} ,{m:"bhala m3rft ach ghadi tkri lina",fr:"he"}
-   ,{m:"bhala m3rft ach ghadi tkri lina",fr:"he"} ,{m:"bhala m3rft ach ghadi tkri lina",fr:"he"}
-  ,{m:"bhala m3rft ach ghadi tkri lina",fr:"he"} ,{m:"bhala m3rft ach ghadi tkri lina",fr:"he"}
-  */
-  
-  
+  const [my, setmy] = React.useState([
   ]);
     const [you, setyou] = React.useState([1,2,3,4,5,6]);
         const [youtop, setyoutop] = React.useState([30]);
